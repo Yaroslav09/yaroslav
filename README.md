@@ -2,7 +2,7 @@
 
 ## Installation
 
-To run this project locally, follow these steps:
+To run this project locally, follow these steps :
 
 1. Clone the repository: `git clone https://github.com/Yaroslav09/yaroslav`
 2. Navigate to the project directory: `cd yaroslav`
