@@ -22,7 +22,7 @@ function Dark() {
   return (
     <button
       onClick={darkModeHandler}
-      className="rounded-full bg-gray-200 p-3 shadow-lg transition-all duration-300 dark:bg-gray-800"
+      className="rounded-full bg-gray-200 p-3 shadow-lg transition-all duration-300 dark:bg-gray-800 dark:text-[#F9F4DA]"
       aria-label="Toggle Dark Mode"
     >
       {dark ? <IoSunny size={18} /> : <IoMoon size={18} />}

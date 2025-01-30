@@ -26,7 +26,7 @@ const LanguageSelector = () => {
       {/* Dropdown Button */}
       <button
         onClick={toggleDropdown}
-        className="flex rounded-full bg-gray-200 px-3 py-2 shadow-lg transition-all duration-300 focus:outline-hidden dark:bg-gray-800"
+        className="flex rounded-full bg-gray-200 px-3 py-2 font-bold shadow-lg transition-all duration-300 focus:outline-hidden dark:bg-gray-800 dark:text-[#F9F4DA]"
       >
         {languages.find((lang) => lang.code === i18n.language)?.lang ||
           "Select Language"}
@@ -51,7 +51,7 @@ const LanguageSelector = () => {
       {/* Dropdown Menu */}
       {isOpen && (
         <div
-          className="xl:dark:bg-custom-gradient ring-opacity-5 mt-2 w-full rounded-md bg-white py-2 ring-1 shadow-lg ring-black xl:absolute xl:w-38 dark:bg-transparent"
+          className="xl:dark:bg-custom-gradient ring-opacity-5 z-20 mt-2 w-full rounded-md bg-white py-2 font-bold ring-1 shadow-lg ring-black xl:absolute xl:w-38 dark:bg-gray-800 dark:text-[#F9F4DA]"
           role="menu"
         >
           {languages.map((lng) => (
